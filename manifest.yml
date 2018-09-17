@@ -1,0 +1,6 @@
+applications:
+- name: hazard
+  random-route: true
+  memory: 256M
+  instances: 1
+  #command: rake db:migrate && bin/rails server -p $PORT -e $RAILS_ENV
